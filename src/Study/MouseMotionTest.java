@@ -47,5 +47,7 @@ public class MouseMotionTest extends JFrame {
 
     public static void main(String[] args) {
 
+        MouseMotionTest t = new MouseMotionTest();
+
     }
 }
