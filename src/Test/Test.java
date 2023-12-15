@@ -10,11 +10,16 @@ class MyBoard extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         board = new JPanel();
+
+        this.add(board);
+        setVisible(true);
     }
+
+    class
 }
 
 public class Test {
     public static void main(String[] args) {
-
+        MyBoard newBoard = new MyBoard();
     }
 }
